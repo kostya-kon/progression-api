@@ -28,10 +28,6 @@ $ docker-compose up -d
 $ docker build -t <name> .
 ```
 
-Env option below required.
-```
-DATABASE_SYNCHRONIZE=true
-```
 
 # Api Docs
 ## /input (POST)
