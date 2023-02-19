@@ -43,8 +43,8 @@ export class InputDto {
   type: number;
 
   @ApiProperty({
-    description: 'Balance in bank',
-    example: 2500,
+    description: 'data options',
+    type: Data,
   })
   @IsObject()
   data: Data;
